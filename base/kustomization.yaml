@@ -4,5 +4,6 @@ resources:
   - namespace.yaml
   - redis-deployment.yaml
   - redis-service.yaml
-  - service.yaml
   - configmap.yaml
+  - deployment.yaml
+  - service.yaml

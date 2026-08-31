@@ -40,8 +40,8 @@ spec:
           initialDelaySeconds: 10
           periodSeconds: 10
 
-          envFrom:
-          - configMapRef:
+        envFrom:
+        - configMapRef:
             name: task-manager-config
 
         # env:
