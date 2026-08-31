@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: task-manager
-        image: pavansaipashikanti/task-manager:latest
+        image: pavansaipashikanti/taskmanager:latest
         startupProbe:
           httpGet:
             path: /health
